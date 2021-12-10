@@ -14,7 +14,7 @@ object DateTimeUtil {
   /**
    * The ISO8601 standard date format.
    */
-  //val ISO_DATE_TIME_FORMAT = "%04d-%02d-%02dT%02d:%02d:%02d%s"
+  // val ISO_DATE_TIME_FORMAT = "%04d-%02d-%02dT%02d:%02d:%02d%s"
   val ISO_DATE_TIME_FORMAT = "%s-%s-%sT%s:%s:%s%s"
 
   /**
