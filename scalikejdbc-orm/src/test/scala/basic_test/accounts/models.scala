@@ -87,7 +87,7 @@ object Member extends CRUDMapper[Member] {
     (member, gs) => member.copy(groups = gs)
   ).byDefault
   // if GroupMapper is "Group", this code will work
-  //hasManyThrough[Group](GroupMember, Group, (member, groups) => member.copy(groups = groups)).byDefault
+  // hasManyThrough[Group](GroupMember, Group, (member, groups) => member.copy(groups = groups)).byDefault
 
   // skills
   val skillsSimpleRef = hasManyThrough[Skill](

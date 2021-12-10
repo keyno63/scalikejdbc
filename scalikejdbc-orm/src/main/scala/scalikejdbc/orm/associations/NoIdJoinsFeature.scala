@@ -66,7 +66,7 @@ trait NoIdJoinsFeature[Entity]
 
       override def defaultScope(alias: Alias[Entity]) =
         _self.defaultScope(alias)
-      //override def singleSelectQuery = _self.singleSelectQuery
+      // override def singleSelectQuery = _self.singleSelectQuery
 
       def extract(rs: WrappedResultSet, n: ResultName[Entity]) =
         underlying.extract(rs, n)
